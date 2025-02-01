@@ -1,0 +1,177 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "secondary_prompt": {
+    "template": "[...] ",
+    "foreground": "#4CAF50",
+    "background": "transparent"
+  },
+  "transient_prompt": {
+    "template": "[\u25ba] ",
+    "foreground": "#2196F3",
+    "background": "transparent"
+  },
+  "console_title_template": "🧩 Pattern Terminal 🧩",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none",
+            "display_host": false
+          },
+          "template": "\u25b0\u25b0\u25b0 [{{ .UserName }}] \u25b0\u25b0\u25b0 ",
+          "foreground": "#4CAF50",
+          "type": "session",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none",
+            "folder_separator_icon": "\u2192",
+            "style": "full"
+          },
+          "template": "📁 [{{ .Path }}] ",
+          "foreground": "#2196F3",
+          "type": "path",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none",
+            "fetch_stash_count": true,
+            "fetch_status": true
+          },
+          "template": "🔄 [{{ .HEAD }}]{{ if .Working.Changed }} \u25e2{{ .Working.String }}\u25e3{{ end }}{{ if .Staging.Changed }} \u25e4{{ .Staging.String }}\u25e5{{ end }} ",
+          "foreground": "#9C27B0",
+          "type": "git",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none",
+            "time_format": "15:04:05"
+          },
+          "template": "\u23f0 [{{ .CurrentDate | date \"15:04:05\" }}] ",
+          "foreground": "#FF5722",
+          "type": "time",
+          "style": "plain"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none",
+            "precision": 0
+          },
+          "template": "[CPU: {{ round .PhysicalPercentUsed .Precision }}%] ",
+          "foreground": "#E91E63",
+          "type": "sysinfo",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "[🔋 {{ if gt .Percentage 80 }}||||{{ else if gt .Percentage 60 }}|||{{ else if gt .Percentage 40 }}||{{ else if gt .Percentage 20 }}|{{ else }}!{{ end }} {{ .Percentage }}%] ",
+          "foreground": "#8BC34A",
+          "type": "battery",
+          "style": "plain"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550",
+          "foreground": "#03A9F4",
+          "type": "text",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": " 🔑 ",
+          "foreground": "#F44336",
+          "type": "root",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "always_enabled": true,
+            "cache_duration": "none",
+            "style": "round"
+          },
+          "template": "[\u23f1 {{ .FormattedMs }}] ",
+          "foreground": "#FF9800",
+          "type": "executiontime",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "always_enabled": true,
+            "cache_duration": "none"
+          },
+          "template": "{{ if gt .Code 0 }}[❌ {{ .Code }}]{{ else }}[✅ OK]{{ end }} ",
+          "type": "status",
+          "style": "plain",
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}#F44336{{ else }}#4CAF50{{ end }}"
+          ]
+        }
+      ],
+      "newline": true
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "\u25bc\u25bc\u25bc",
+          "foreground": "#03A9F4",
+          "type": "text",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": " [\ud835\udf45] ",
+          "foreground": "#4CAF50",
+          "type": "text",
+          "style": "plain"
+        }
+      ],
+      "newline": true
+    }
+  ],
+  "tooltips": [
+    {
+      "template": "💡 {{ .Tip }}",
+      "foreground": "#FF9800",
+      "type": "command",
+      "style": "plain",
+      "tips": [
+        "Remember: Up arrow recalls previous commands",
+        "Tip: Use 'clear' to reset the screen",
+        "Note: Tab helps complete commands"
+      ]
+    }
+  ],
+  "version": 3,
+  "final_space": true
+}
