@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# oh-my-posh.themes
+A personalized terminal prompt theme configuration using Oh My Posh - the prompt theme engine for any shell.
+=======
+>>>>>>> e787cc0 (Initial commit: Oh My Posh configuration)
 <div align="center">
 
 
@@ -14,6 +21,7 @@ engine for any shell.
 ## 
 | Themes | Preview |
 | ------ | ------ |
+<<<<<<< HEAD
 | [cosmic](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/themes/cosmic.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/cosmic.png">|
 | [cosmic-navigator](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/themes/cosmic-navigator.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/cosmic-navigator.png">|
 | [cyberpunk](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/themes/cyberpunk.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/cyberpunk.png">|
@@ -23,6 +31,17 @@ engine for any shell.
 | [synthwave](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/themes/synthwave.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/synthwave.png">|
 | [uni-art](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/themes/uni-art.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/uni-art.png">|
 | [wevilb](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/themes/wevilb.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/Screenshot%202025-02-01%20184746.png">|
+=======
+| [cosmic]() |<img src="">|
+| [cosmic-navigator]() |<img src="">|
+| [cyberpunk]() |<img src="">|
+| [kawaii-terminal]() |<img src="">|
+| [neuro-flow]() |<img src="">|
+| [quantum-matrix]() |<img src="">|
+| [synthwave]() |<img src="">|
+| [uni-art]() |<img src="">|
+| [wevilb]() |<img src="">|
+>>>>>>> e787cc0 (Initial commit: Oh My Posh configuration)
 
 </div>
 
@@ -61,7 +80,11 @@ curl -s https://ohmyposh.dev/install.sh | bash
 ### Cmd ([Clink](https://chrisant996.github.io/clink/))
 
 ```cmd
+<<<<<<< HEAD
 load(io.popen('oh-my-posh init cmd --config "yourtheme-url".omp.json'):read("*a"))()
+=======
+load(io.popen('oh-my-posh init cmd --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/"yourtheme".omp.json'):read("*a"))()
+>>>>>>> e787cc0 (Initial commit: Oh My Posh configuration)
 ```
 
 ### PowerShell
@@ -114,3 +137,7 @@ This theme configuration has been optimized for performance, with most prompts r
 
 ---
 Made by [wevilb](https://github.com/wevilb)
+<<<<<<< HEAD
+=======
+>>>>>>> 65b17c5 (Initial commit: Oh My Posh configuration)
+>>>>>>> e787cc0 (Initial commit: Oh My Posh configuration)
