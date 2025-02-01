@@ -1,0 +1,187 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "secondary_prompt": {
+    "template": "🎀 ",
+    "foreground": "#9B6BDF",
+    "background": "transparent"
+  },
+  "transient_prompt": {
+    "template": "💝 ",
+    "foreground": "#FF69B4",
+    "background": "transparent"
+  },
+  "console_title_template": "🌸 Kawaii Terminal 🌸",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none",
+            "display_host": false
+          },
+          "leading_diamond": "🌸",
+          "trailing_diamond": "🌸",
+          "template": " {{ .UserName }} ",
+          "foreground": "#FF69B4",
+          "background": "#FFF0F5",
+          "type": "session",
+          "style": "diamond"
+        },
+        {
+          "properties": {
+            "cache_duration": "none",
+            "folder_separator_icon": " 💝 ",
+            "style": "full"
+          },
+          "template": " 🏠 {{ .Path }} ",
+          "foreground": "#9B6BDF",
+          "powerline_symbol": "💗",
+          "background": "#F0E6FF",
+          "type": "path",
+          "style": "powerline"
+        },
+        {
+          "properties": {
+            "cache_duration": "none",
+            "fetch_stash_count": true,
+            "fetch_status": true,
+            "fetch_upstream_icon": true
+          },
+          "template": " 🌟 {{ .HEAD }}{{ if .Working.Changed }} ✨ {{ .Working.String }}{{ end }}{{ if .Staging.Changed }} 🎀 {{ .Staging.String }}{{ end }} ",
+          "foreground": "#FF85A2",
+          "powerline_symbol": "💗",
+          "background": "#FFE6EA",
+          "type": "git",
+          "style": "powerline"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": " 🕰\ufe0f {{ .CurrentDate | date \"15:04\" }} ",
+          "foreground": "#87CEEB",
+          "powerline_symbol": "💗",
+          "background": "#E6F3FF",
+          "type": "time",
+          "style": "powerline"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "leading_diamond": "🎵",
+          "trailing_diamond": "🎵",
+          "template": " {{ if ne .Status \"stopped\" }}{{ .Artist }} 💝 {{ .Track }}{{ end }} ",
+          "foreground": "#1DB954",
+          "background": "#E6FFE6",
+          "type": "spotify",
+          "style": "diamond"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none",
+            "location": "Amsterdam"
+          },
+          "leading_diamond": "🌈",
+          "trailing_diamond": "🌈",
+          "template": " {{ if eq .Weather \"Sunny\" }}🌞{{ else if eq .Weather \"Cloudy\" }}🌥\ufe0f{{ else if eq .Weather \"Rainy\" }}🌧\ufe0f{{ else }}🌈{{ end }} {{ .Temperature }}° ",
+          "foreground": "#87CEEB",
+          "background": "#E6F3FF",
+          "type": "weather",
+          "style": "diamond"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "leading_diamond": "🎀",
+          "trailing_diamond": "🎀",
+          "template": " 🔋 {{ if gt .Percentage 80 }}💖💖💖{{ else if gt .Percentage 60 }}💖💖{{ else if gt .Percentage 40 }}💖{{ else if gt .Percentage 20 }}💔{{ else }}💝{{ end }} {{ .Percentage }}% ",
+          "foreground": "#FFB6C1",
+          "background": "#FFE6EA",
+          "type": "battery",
+          "style": "diamond"
+        }
+      ],
+      "newline": true
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "\u256d\u2500",
+          "foreground": "#FF69B4",
+          "type": "text",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "always_enabled": true,
+            "cache_duration": "none"
+          },
+          "template": "{{ if gt .Code 0 }}💔{{ else }}💝{{ end }} ",
+          "type": "status",
+          "style": "plain",
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}#FF69B4{{ else }}#87CEEB{{ end }}"
+          ]
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "~ ",
+          "foreground": "#FF69B4",
+          "type": "text",
+          "style": "plain"
+        }
+      ],
+      "newline": true
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "\u2570\u2500",
+          "foreground": "#FF69B4",
+          "type": "text",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "🌸 ",
+          "foreground": "#9B6BDF",
+          "type": "text",
+          "style": "plain"
+        }
+      ],
+      "newline": true
+    }
+  ],
+  "version": 3,
+  "final_space": true
+}

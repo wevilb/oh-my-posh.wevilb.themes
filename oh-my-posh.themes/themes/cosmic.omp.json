@@ -1,0 +1,235 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "secondary_prompt": {
+    "template": "\udb80\uddd8 ",
+    "foreground": "#bb9af7",
+    "background": "transparent"
+  },
+  "transient_prompt": {
+    "template": "\udb80\udea0 ",
+    "foreground": "#7aa2f7",
+    "background": "transparent"
+  },
+  "console_title_template": "🌌 Cosmic Shell",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none",
+            "display_host": false
+          },
+          "leading_diamond": "\u2588",
+          "template": " \udb82\udcc7 {{ .UserName }} ",
+          "foreground": "#c678dd",
+          "background": "#1a1b26",
+          "type": "session",
+          "style": "diamond"
+        },
+        {
+          "properties": {
+            "cache_duration": "none",
+            "folder_separator_icon": " \udb80\uddd8 ",
+            "style": "full"
+          },
+          "template": " \udb83\ude6f {{ .Path }} ",
+          "foreground": "#7aa2f7",
+          "background": "#1a1b26",
+          "type": "path",
+          "style": "powerline"
+        },
+        {
+          "properties": {
+            "cache_duration": "none",
+            "fetch_stash_count": true,
+            "fetch_status": true,
+            "fetch_upstream_icon": true
+          },
+          "template": " \udb80\udea2 {{ .HEAD }}{{ if .Working.Changed }} \udb85\udccf{{ .Working.String }}{{ end }}{{ if .Staging.Changed }} \udb85\udcce{{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \udb80\udd93{{ .StashCount }}{{ end }} ",
+          "foreground": "#e0af68",
+          "background": "#1a1b26",
+          "type": "git",
+          "style": "powerline",
+          "background_templates": [
+            "{{ if or (.Working.Changed) (.Staging.Changed) }}#24283b{{ end }}"
+          ]
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": " \udb80\udf99 {{ if .PackageVersion }}\udb80\udfa0 {{ .PackageVersion }}{{ else }}{{ .Full }}{{ end }} ",
+          "foreground": "#98c379",
+          "background": "#1a1b26",
+          "type": "node",
+          "style": "powerline"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": " \udb80\udf20 {{ if .Venv }}\udb80\udda7 {{ .Venv }}{{ else }}{{ .Full }}{{ end }} ",
+          "foreground": "#f7768e",
+          "background": "#1a1b26",
+          "type": "python",
+          "style": "powerline"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": " \udb83\udd2d {{ .Full }} ",
+          "foreground": "#ff7a93",
+          "background": "#1a1b26",
+          "type": "ruby",
+          "style": "powerline"
+        },
+        {
+          "properties": {
+            "cache_duration": "none",
+            "time_format": "15:04:05"
+          },
+          "template": " \udb82\udd54 {{ .CurrentDate | date \"15:04:05\" }} ",
+          "foreground": "#bb9af7",
+          "background": "#1a1b26",
+          "type": "time",
+          "style": "powerline"
+        },
+        {
+          "properties": {
+            "cache_duration": "none",
+            "precision": 2
+          },
+          "template": " \udb80\udf5b {{ round .PhysicalPercentUsed .Precision }}% ",
+          "foreground": "#7dcfff",
+          "background": "#1a1b26",
+          "type": "sysinfo",
+          "style": "powerline"
+        },
+        {
+          "properties": {
+            "cache_duration": "none",
+            "charged_icon": "\udb80\udc85",
+            "charging_icon": "\udb80\udc84"
+          },
+          "template": " {{ if eq \"Charging\" .State.String }}\udb80\udc84{{ else if eq \"Discharging\" .State.String }}{{ if ge .Percentage 80 }}\udb80\udc81{{ else if ge .Percentage 60 }}\udb80\udc7f{{ else if ge .Percentage 40 }}\udb80\udc7d{{ else if ge .Percentage 20 }}\udb80\udc7b{{ else }}\udb80\udc7a{{ end }}{{ end }} {{ .Percentage }}% ",
+          "foreground": "#9ece6a",
+          "background": "#1a1b26",
+          "type": "battery",
+          "style": "powerline"
+        },
+        {
+          "properties": {
+            "always_enabled": true,
+            "cache_duration": "none"
+          },
+          "trailing_diamond": "\u2588",
+          "template": " {{ if gt .Code 0 }}\udb84\udf98{{ else }}\udb84\udf94{{ end }} ",
+          "foreground": "#f7768e",
+          "background": "#1a1b26",
+          "type": "exit",
+          "style": "diamond"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "leading_diamond": "\u2588",
+          "trailing_diamond": "\u2588",
+          "template": " {{ .Weather }} {{ .Temperature }}°C ",
+          "foreground": "#89ddff",
+          "background": "#1a1b26",
+          "type": "weather",
+          "style": "diamond"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "\u256d\u2500\u2500",
+          "foreground": "#bb9af7",
+          "type": "text",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "always_enabled": true,
+            "cache_duration": "none",
+            "style": "austin"
+          },
+          "template": "\udb81\udd1f {{ .FormattedMs }} ",
+          "foreground": "#7aa2f7",
+          "type": "executiontime",
+          "style": "plain"
+        }
+      ],
+      "newline": true
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "\u2570\u2500",
+          "foreground": "#bb9af7",
+          "type": "text",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "{{ if gt .Code 0 }}\udb81\ude8c{{ else }}\udb81\ude8a{{ end }}",
+          "foreground": "#e0af68",
+          "type": "status",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": " \udb80\udea0 ",
+          "foreground": "#7aa2f7",
+          "type": "text",
+          "style": "plain"
+        }
+      ],
+      "newline": true
+    }
+  ],
+  "tooltips": [
+    {
+      "leading_diamond": "\u2588",
+      "trailing_diamond": "\u2588",
+      "template": " {{ .Tip }} ",
+      "foreground": "#e0af68",
+      "background": "#1a1b26",
+      "type": "git",
+      "style": "diamond",
+      "tips": [
+        "git fetch",
+        "git pull",
+        "git status"
+      ]
+    }
+  ],
+  "version": 3,
+  "final_space": true
+}

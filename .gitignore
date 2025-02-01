@@ -1,0 +1,57 @@
+# Hey! This is my gitignore file for Oh My Posh project
+# Feel free to add more stuff you want to ignore!
+
+#---------------------------
+# Windows junk files
+#---------------------------
+# Windows thumbnail cache
+Thumbs.db
+# Windows desktop settings
+desktop.ini
+# Windows shortcuts
+*.lnk
+
+#---------------------------
+# macOS junk files
+#---------------------------
+# Mac desktop service store
+.DS_Store
+
+#---------------------------
+# Editor stuff
+#---------------------------
+# VS Code settings
+.vscode/
+# JetBrains IDE settings
+.idea/
+# Vim temporary files
+*.swp
+*.swo
+# Generic backup files
+*~
+
+#---------------------------
+# Oh My Posh specific
+#---------------------------
+# Backup theme files
+*.backup.omp.*
+# Log files
+*.log
+
+#---------------------------
+# Temporary and backup files
+#---------------------------
+# Temp folders
+temp/
+tmp/
+# Backup files
+*.bak
+*.old
+*.original
+
+#---------------------------
+# Environment files
+#---------------------------
+# Local environment settings
+.env
+.env.local

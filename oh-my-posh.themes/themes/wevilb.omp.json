@@ -1,0 +1,173 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "secondary_prompt": {
+    "template": "λ... ",
+    "foreground": "#89DDFF",
+    "background": "transparent"
+  },
+  "transient_prompt": {
+    "template": "λ\u2192 ",
+    "foreground": "#C792EA",
+    "background": "transparent"
+  },
+  "console_title_template": "λ Wevilb Terminal λ",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "leading_diamond": "λ\u2192",
+          "template": " {{ .UserName }}@{{ .HostName }} ",
+          "foreground": "#C792EA",
+          "background": "#1E1E2E",
+          "type": "session",
+          "style": "diamond"
+        },
+        {
+          "properties": {
+            "cache_duration": "none",
+            "folder_separator_icon": "λ",
+            "style": "full"
+          },
+          "template": " λ:{{ .Path }} ",
+          "foreground": "#89DDFF",
+          "powerline_symbol": "λ",
+          "background": "#1E1E2E",
+          "type": "path",
+          "style": "powerline"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": " λ[{{ .HEAD }}]{{ if .Working.Changed }} Δ{{ .Working.String }}{{ end }}{{ if .Staging.Changed }} Σ{{ .Staging.String }}{{ end }} ",
+          "foreground": "#F78C6C",
+          "powerline_symbol": "λ",
+          "background": "#1E1E2E",
+          "type": "git",
+          "style": "powerline"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": " λ::{{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "foreground": "#82AAFF",
+          "powerline_symbol": "λ",
+          "background": "#1E1E2E",
+          "type": "haskell",
+          "style": "powerline"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "leading_diamond": "\u2190λ",
+          "template": " λ.js[{{ if .PackageVersion }}{{ .PackageVersion }}{{ else }}{{ .Full }}{{ end }}] ",
+          "foreground": "#C3E88D",
+          "background": "#1E1E2E",
+          "type": "node",
+          "style": "diamond"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": " λ.py[{{ if .Venv }}{{ .Venv }}{{ else }}{{ .Full }}{{ end }}] ",
+          "foreground": "#FFCB6B",
+          "background": "#1E1E2E",
+          "type": "python",
+          "style": "diamond"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "trailing_diamond": "\u2190λ",
+          "template": " λ.rs[{{ .Full }}] ",
+          "foreground": "#FF5370",
+          "background": "#1E1E2E",
+          "type": "rust",
+          "style": "diamond"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "λ\u2192 ",
+          "foreground": "#C792EA",
+          "type": "text",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "always_enabled": true,
+            "cache_duration": "none",
+            "style": "austin",
+            "threshold": 100
+          },
+          "template": "τ[{{ .FormattedMs }}] ",
+          "foreground": "#89DDFF",
+          "type": "executiontime",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "always_enabled": true,
+            "cache_duration": "none"
+          },
+          "template": "{{ if gt .Code 0 }}λ\u22a5{{ else }}λ\u22a4{{ end }} ",
+          "type": "status",
+          "style": "plain",
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}#FF5370{{ else }}#C3E88D{{ end }}"
+          ]
+        }
+      ],
+      "newline": true
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "λ\u2192 ",
+          "foreground": "#C792EA",
+          "type": "text",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "λroot ",
+          "foreground": "#FF5370",
+          "type": "root",
+          "style": "plain"
+        }
+      ],
+      "newline": true
+    }
+  ],
+  "version": 3,
+  "final_space": true
+}
