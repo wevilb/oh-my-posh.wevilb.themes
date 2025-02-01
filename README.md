@@ -19,7 +19,7 @@ engine for any shell.
 | [cyberpunk]() |<img src="">|
 | [kawaii-terminal]() |<img src="">|
 | [neuro-flow]() |<img src="">|
-| [quantum-matrix]() |<img src="">|
+| [quantum-matrix]() |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/quantum-matrix.png">|
 | [synthwave]() |<img src="">|
 | [uni-art]() |<img src="">|
 | [wevilb]() |<img src="">|
