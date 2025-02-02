@@ -61,7 +61,7 @@ curl -s https://ohmyposh.dev/install.sh | bash
 ### Cmd ([Clink](https://chrisant996.github.io/clink/))
 
 ```cmd
-load(io.popen('oh-my-posh init cmd --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/"yourtheme".omp.json'):read("*a"))()
+load(io.popen('oh-my-posh init cmd --config "yourtheme-url".omp.json'):read("*a"))()
 ```
 
 ### PowerShell
