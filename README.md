@@ -1,4 +1,3 @@
-
 <div align="center">
 
 
@@ -60,13 +59,8 @@ curl -s https://ohmyposh.dev/install.sh | bash
 ## ⚙️ Configuration
 
 ### Cmd ([Clink](https://chrisant996.github.io/clink/))
-
 ```cmd
-<<<<<<< HEAD
-load(io.popen('oh-my-posh init cmd --config "yourtheme-url".omp.json'):read("*a"))()
-=======
-load(io.popen('oh-my-posh init cmd --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/"yourtheme".omp.json'):read("*a"))()
->>>>>>> e787cc0 (Initial commit: Oh My Posh configuration)
+load(io.popen('oh-my-posh init cmd --config yourtheme-url.omp.json'):read("*a"))()
 ```
 
 ### PowerShell
@@ -118,8 +112,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 This theme configuration has been optimized for performance, with most prompts rendering in under 50ms on modern hardware.
 
 ---
+<div align="center">
+  
 Made by [wevilb](https://github.com/wevilb)
-<<<<<<< HEAD
-=======
->>>>>>> 65b17c5 (Initial commit: Oh My Posh configuration)
->>>>>>> e787cc0 (Initial commit: Oh My Posh configuration)
+</div>
