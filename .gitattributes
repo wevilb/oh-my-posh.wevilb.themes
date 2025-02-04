@@ -1,5 +1,1 @@
 *.json linguist-language=JSON
-
-*.json text eol=lf
-
-*.json text
