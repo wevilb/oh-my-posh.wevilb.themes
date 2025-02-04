@@ -1,0 +1,5 @@
+# Ensure JSON files are recognized as JSON
+*.json linguist-language=JSON
+
+# Ensure JSON files are not marked as generated
+*.json -linguist-generated
