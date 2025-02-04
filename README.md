@@ -14,15 +14,15 @@ engine for any shell.
 ## 
 | Themes | Preview |
 | ------ | ------  |
-| [cosmic](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/themes/cosmic.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/cosmic.png">|
-| [cosmic-navigator](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/themes/cosmic-navigator.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/cosmic-navigator.png">|
-| [cyberpunk](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/themes/cyberpunk.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/cyberpunk.png">|
-| [kawaii-terminal](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/themes/kawaii-terminal.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/kiwaii-terminal.png">|
-| [neuro-flow](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/themes/neuro-flow.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/neuro-flow.png">|
-| [quantum-matrix](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/themes/quantum-matrix.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/quantum-matrix.png">|
-| [synthwave](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/themes/synthwave.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/synthwave.png">|
-| [uni-art](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/themes/uni-art.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/uni-art.png">|
-| [wevilb](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/themes/wevilb.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/wevilb.png">|
+| [cosmic](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/cosmic.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/cosmic.png">|
+| [cosmic-navigator](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/cosmic-navigator.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/cosmic-navigator.png">|
+| [cyberpunk](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/cyberpunk.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/cyberpunk.png">|
+| [kawaii-terminal](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/kawaii-terminal.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/kiwaii-terminal.png">|
+| [neuro-flow](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/neuro-flow.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/neuro-flow.png">|
+| [quantum-matrix](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/quantum-matrix.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/quantum-matrix.png">|
+| [synthwave](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/synthwave.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/synthwave.png">|
+| [uni-art](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/uni-art.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/uni-art.png">|
+| [wevilb](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/oh-my-posh.themes/wevilb.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/wevilb.png">|
 
 </div>
 
