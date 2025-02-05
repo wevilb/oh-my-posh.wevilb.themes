@@ -1,2 +1,5 @@
+<<<<<<< HEAD
 *.oh-my-posh.themes linguist-detectable=true
+=======
+>>>>>>> 81db7d5 (Trigger GitHub to update language stats)
 *.json linguist-language=JSON
