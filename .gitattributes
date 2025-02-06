@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 *.oh-my-posh.themes linguist-detectable=true
+=======
+
+>>>>>>> 647db16 (update)
 *.json linguist-language=JSON
