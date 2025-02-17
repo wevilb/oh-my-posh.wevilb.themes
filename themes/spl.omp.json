@@ -7,9 +7,10 @@
       "segments": [
         {
           "properties": {
-            "cache_duration": "none"
+            "cache_duration": "none",
+            "style": "full"
           },
-          "template": "{{ .Path }}",
+          "template": "{{ if eq .Path \"~\" }}{{ else }}{{ .Path }}{{ end }}",
           "foreground": "#0077cc",
           "type": "path",
           "style": "plain"
