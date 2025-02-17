@@ -23,7 +23,7 @@ engine for any shell.
 | [synthwave](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/themes/synthwave.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/synthwave.png">|
 | [uni-art](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/themes/uni-art.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/uni-art.png">|
 | [wevilb](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/themes/wevilb.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/wevilb.png">|
-
+| [spl](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/themes/sql.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/spl.png">|
 </div>
 
 ##
