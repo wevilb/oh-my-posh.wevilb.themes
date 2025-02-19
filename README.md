@@ -14,16 +14,16 @@ engine for any shell.
 ## 
 | Themes | Preview |
 | ------ | ------  |
-| [cosmic](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/themes/cosmic.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/cosmic.png">|
-| [cosmic-navigator](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/themes/cosmic-navigator.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/cosmic-navigator.png">|
-| [cyberpunk](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/themes/cyberpunk.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/cyberpunk.png">|
-| [kawaii-terminal](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/themes/kawaii-terminal.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/kiwaii-terminal.png">|
-| [neuro-flow](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/themes/neuro-flow.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/neuro-flow.png">|
-| [quantum-matrix](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/themes/quantum-matrix.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/quantum-matrix.png">|
-| [synthwave](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/themes/synthwave.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/synthwave.png">|
-| [uni-art](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/themes/uni-art.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/uni-art.png">|
-| [wevilb](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/themes/wevilb.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/wevilb.png">|
-| [spl](https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/themes/spl.omp.json) |<img src="https://github.com/wevilb/oh-my-posh.wevilb.themes/blob/main/assets/screenshots/spl.png">|
+| [cosmic](themes/cosmic.omp.json) |<img src="assets/screenshots/cosmic.png">|
+| [cosmic-navigator](themes/cosmic-navigator.omp.json) |<img src="assets/screenshots/cosmic-navigator.png">|
+| [cyberpunk](themes/cyberpunk.omp.json) |<img src="assets/screenshots/cyberpunk.png">|
+| [kawaii-terminal](themes/kawaii-terminal.omp.json) |<img src="assets/screenshots/kiwaii-terminal.png">|
+| [neuro-flow](themes/neuro-flow.omp.json) |<img src="assets/screenshots/neuro-flow.png">|
+| [quantum-matrix](themes/quantum-matrix.omp.json) |<img src="assets/screenshots/quantum-matrix.png">|
+| [synthwave](themes/synthwave.omp.json) |<img src="assets/screenshots/synthwave.png">|
+| [uni-art](themes/uni-art.omp.json) |<img src="assets/screenshots/uni-art.png">|
+| [wevilb](themes/wevilb.omp.json) |<img src="assets/screenshots/wevilb.png">|
+| [spl](themes/spl.omp.json) |<img src="assets/screenshots/spl.png">|
 </div>
 
 ##
