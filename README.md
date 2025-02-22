@@ -45,7 +45,7 @@ engine for any shell.
 
 ## Installation
 
-### Windows (PowerShell)
+### Windows
 
 ```powershell
 winget install JanDeDobbeleer.OhMyPosh
