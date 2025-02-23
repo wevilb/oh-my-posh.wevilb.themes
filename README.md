@@ -24,7 +24,7 @@ engine for any shell.
 | [uni-art](themes/uni-art.omp.json) |<img src="assets/screenshots/uni-art.png">|
 | [wevilb](themes/wevilb.omp.json) |<img src="assets/screenshots/wevilb.png">|
 | [spl](themes/spl.omp.json) |<img src="assets/screenshots/spl.png">|
-| [bubble-brackets](themes/bubble-brackets) |<image src="assets/screenshots/bubble-brackets.png"|
+| [bubble-brackets](themes/bubble-brackets) |<image src="assets/screenshots/bubble-brackets.png">|
 </div>
 
 ##
