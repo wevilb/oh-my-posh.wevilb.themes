@@ -28,7 +28,7 @@ engine for any shell.
 
 ##
 ##  Features
-
+- 🟢 Spotify status
 - 📊 Git status integration
 - ⏱️ Execution time for commands
 - 🔋 Battery status indicator
