@@ -10,7 +10,6 @@
     "foreground": "#FF69B4",
     "background": "transparent"
   },
-  "console_title_template": "🌸 Kawaii Terminal 🌸",
   "blocks": [
     {
       "type": "prompt",
@@ -21,9 +20,9 @@
             "cache_duration": "none",
             "display_host": false
           },
-          "leading_diamond": "🌸",
-          "trailing_diamond": "🌸",
-          "template": " {{ .UserName }} ",
+          "leading_diamond": "🌸 ",
+          "powerline_symbole": "\ue0b0",
+          "template": " {{ .UserName }}",
           "foreground": "#FF69B4",
           "background": "#FFF0F5",
           "type": "session",
@@ -32,12 +31,12 @@
         {
           "properties": {
             "cache_duration": "none",
-            "folder_separator_icon": " 💝 ",
+            "folder_separator_icon": " \ue5fe ",
             "style": "full"
           },
-          "template": " 🏠 {{ .Path }} ",
+          "template": " \ueb06 {{ .Path }} ",
           "foreground": "#9B6BDF",
-          "powerline_symbol": "💗",
+          "powerline_symbol": "\ue0b0",
           "background": "#F0E6FF",
           "type": "path",
           "style": "powerline"
@@ -49,10 +48,10 @@
             "fetch_status": true,
             "fetch_upstream_icon": true
           },
-          "template": " 🌟 {{ .HEAD }}{{ if .Working.Changed }} ✨ {{ .Working.String }}{{ end }}{{ if .Staging.Changed }} 🎀 {{ .Staging.String }}{{ end }} ",
+          "template": " {{ .UpstreamIcon }} {{ .HEAD }}{{ if .Working.Changed }} {{ .Working.String }}{{ end }}{{ if .Staging.Changed }} 🎀 {{ .Staging.String }}{{ end }} ",
           "foreground": "#FF85A2",
-          "powerline_symbol": "💗",
-          "background": "#FFE6EA",
+          "powerline_symbol": "\ue0b0",
+          "background": "#000000",
           "type": "git",
           "style": "powerline"
         },
@@ -60,9 +59,9 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": " 🕰\ufe0f {{ .CurrentDate | date \"15:04\" }} ",
-          "foreground": "#87CEEB",
-          "powerline_symbol": "💗",
+          "template": " {{ .CurrentDate | date \"15:04\" }} ",
+          "foreground": "#000000",
+          "powerline_symbol": "\ue0b0",
           "background": "#E6F3FF",
           "type": "time",
           "style": "powerline"
@@ -77,10 +76,10 @@
           "properties": {
             "cache_duration": "none"
           },
-          "leading_diamond": "🎵",
-          "trailing_diamond": "🎵",
-          "template": " {{ if ne .Status \"stopped\" }}{{ .Artist }} 💝 {{ .Track }}{{ end }} ",
-          "foreground": "#1DB954",
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "\ue0b4",
+          "template": " {{ if ne .Status \"stopped\" }}{{ .Artist }} \udb81\udcc7 {{ .Track }}{{ end }} ",
+          "foreground": "#000000",
           "background": "#E6FFE6",
           "type": "spotify",
           "style": "diamond"
@@ -91,19 +90,6 @@
       "type": "prompt",
       "alignment": "left",
       "segments": [
-        {
-          "properties": {
-            "cache_duration": "none",
-            "location": "Amsterdam"
-          },
-          "leading_diamond": "🌈",
-          "trailing_diamond": "🌈",
-          "template": " {{ if eq .Weather \"Sunny\" }}🌞{{ else if eq .Weather \"Cloudy\" }}🌥\ufe0f{{ else if eq .Weather \"Rainy\" }}🌧\ufe0f{{ else }}🌈{{ end }} {{ .Temperature }}° ",
-          "foreground": "#87CEEB",
-          "background": "#E6F3FF",
-          "type": "weather",
-          "style": "diamond"
-        },
         {
           "properties": {
             "cache_duration": "none"
@@ -148,7 +134,7 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": "~ ",
+          "template": "",
           "foreground": "#FF69B4",
           "type": "text",
           "style": "plain"
