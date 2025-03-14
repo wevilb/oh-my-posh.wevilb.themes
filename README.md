@@ -17,7 +17,7 @@ engine for any shell.
 | [cosmic](themes/cosmic.omp.json) |<img src="assets/screenshots/cosmic.png">|
 | [cosmic-navigator](themes/cosmic-navigator.omp.json) |<img src="assets/screenshots/cosmic-navigator.png">|
 | [cyberpunk](themes/cyberpunk.omp.json) |<img src="assets/screenshots/cyberpunk.png">|
-| [kawaii-terminal](themes/kawaii-terminal.omp.json) |<img src="assets/screenshots/kiwaii-terminal.png">|
+| [kawaii-terminal](themes/kawaii-terminal.omp.json) |<img src="assets/screenshots/kawaii-terminal.png">|
 | [neuro-flow](themes/neuro-flow.omp.json) |<img src="assets/screenshots/neuro-flow.png">|
 | [quantum-matrix](themes/quantum-matrix.omp.json) |<img src="assets/screenshots/quantum-matrix.png">|
 | [synthwave](themes/synthwave.omp.json) |<img src="assets/screenshots/synthwave.png">|
