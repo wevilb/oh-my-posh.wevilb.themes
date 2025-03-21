@@ -1,8 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "palette": {
-    "os": "#acb0be",
-    "closer": "p:os",
+    "netural_gray": "#CCD6DD",
     "pink": "#f5c2e7",
     "lavender": "#b4befe"
   },
@@ -45,7 +44,7 @@
             "cache_duration": "none"
           },
           "template": "\n❯ ",
-          "foreground": "#76ff01",
+          "foreground": "p:netural_gray",
           "foreground_templates": [
             "{{ if gt .Code 0 }}#ff0000{{ end }}"
           ],
