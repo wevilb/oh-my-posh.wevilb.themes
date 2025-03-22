@@ -16,7 +16,7 @@
             "style": "agnoster_short"
           },
           "template": " {{ if eq .Path \"~\" }}{{ else }}{{ .Path }}{{ end }}",
-          "foreground": "p:palette",
+          "foreground": "p:netural_gray",
           "type": "path",
           "style": "plain"
         },
