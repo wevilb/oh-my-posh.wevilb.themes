@@ -37,7 +37,29 @@
           "foreground": "p:lavender",
           "type": "git",
           "style": "plain"
-        },
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "right",
+      "segments": [
+        {
+          "foreground": "#a9ffb4",
+          "properties": {
+            "style": "dallas",
+            "threshold": 0
+          },
+          "style": "diamond",
+          "template": " {{ .FormattedMs }}s <#ffffff>\ue601</>",
+          "type": "executiontime"
+        }
+      ],
+      "type": "rprompt"
+    },
+    {
+      "alignment": "left",
+      "segments": [
         {
           "properties": {
             "always_enabled": true,
