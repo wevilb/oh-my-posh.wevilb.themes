@@ -14,7 +14,7 @@ engine for any shell.
 ## 
 | Themes | Preview |
 | ------ | ------  |
-| [wevilbv2](themes/wevilbv2.omp.json) |<img src="assets/sceanshots/wevilbv2.png">|
+| [wevilbv2](themes/wevilbv2.omp.json) |<img src="assets/screenshots/wevilbv2.png">|
   [cosmic](themes/cosmic.omp.json) |<img src="assets/screenshots/cosmic.png">|
 | [cosmic-navigator](themes/cosmic-navigator.omp.json) |<img src="assets/screenshots/cosmic-navigator.png">|
 | [cyberpunk](themes/cyberpunk.omp.json) |<img src="assets/screenshots/cyberpunk.png">|
