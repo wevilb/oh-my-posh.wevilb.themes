@@ -1,0 +1,106 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "os",
+          "style": "plain",
+          "foreground": "#3B82F6",
+          "properties": {
+            "alpine": "\uf300",
+            "arch": "\uf303",
+            "centos": "\uf304",
+            "debian": "\uf306",
+            "elementary": "\uf309",
+            "fedora": "\uf30a",
+            "gentoo": "\uf30d",
+            "linux": "\ue712",
+            "macos": "\uf179 ",
+            "manjaro": "\uf312",
+            "mint": "\uf30f",
+            "opensuse": "\uf314",
+            "raspbian": "\uf315",
+            "ubuntu": "\uf31b ",
+            "windows": "\udb80\udf72",
+            "wsl": "\ue712"
+          },
+          "template": "{{ .Icon }} "
+        },
+        {
+          "properties": {
+            "cache_duration": "none",
+            "style": "letter"
+          },
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "template": " {{ .Path }} ",
+          "foreground": "#66cccc",
+          "background": "#616161",
+          "type": "path",
+          "style": "diamond"
+        },
+        {
+          "type": "git",
+          "properties": {
+            "fetch_status": true,
+            "branch_icon": "\ue725 ",
+            "commit_icon": "",
+            "no_commits_icon": "",
+            "merge_icon": "",
+            "fetch_upstream_icon": true,
+            "upstream_icons": {
+              "git": "\uf113"
+            },
+            "cherry_pick_icon": "",
+            "tag_icon": "",
+            "revert_icon": "",
+            "rebase_icon": "",
+            "cache_duration": "none"
+          },
+          "template": " on {{ .UpstreamIcon }} {{ .HEAD }} {{ if .Staging.Changed }} {{ .Staging.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Working.Changed }} {{ .Working.String }}{{ end }} ",
+          "foreground": "#c1ece4",
+          "style": "plain"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "template": "\udb81\udcc7 {{ .Artist }} ~ {{ .Track }}",
+          "background": "#000000",
+          "foreground": "#1DB954",
+          "type": "spotify",
+          "style": "diamond"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "foreground": "#ffffff",
+          "template": "\u276f",
+          "type": "text",
+          "style": "plain"
+        }
+      ],
+      "newline": true
+    }
+  ],
+  "version": 3,
+  "final_space": true
+}
