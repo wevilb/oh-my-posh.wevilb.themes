@@ -113,7 +113,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 This theme configuration has been optimized for performance, with most prompts rendering in under 50ms on modern hardware.
 
 ---
-<div align="center">
-  
-Made by [wevilb](https://github.com/wevilb)
-</div>
+
