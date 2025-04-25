@@ -1,2 +1,5 @@
+app/* linguist-documentation=false
+app/* linguist-vendored
+
 *.workbook linguist-detectable
 *.workbook linguist-language=JSON
