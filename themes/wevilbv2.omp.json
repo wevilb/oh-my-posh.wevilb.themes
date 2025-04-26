@@ -34,7 +34,7 @@
             "cache_duration": "none",
             "style": "letter"
           },
-          "leading_diamond": "",
+          "leading_diamond": "░▒▓",
           "trailing_diamond": "",
           "template": " {{ .Path }} ",
           "foreground": "#66cccc",
