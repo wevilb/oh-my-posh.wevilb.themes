@@ -76,7 +76,7 @@
           },
           "leading_diamond": "",
           "trailing_diamond": "",
-          "template": "\udb81\udcc7 {{ .Artist }} ~ {{ .Track }}",
+          "template": "<#1DB954>\udb81\udcc7</> {{ .Artist }} ~ {{ .Track }}",
           "background": "#616161",
           "foreground": "#000000",
           "type": "spotify",
